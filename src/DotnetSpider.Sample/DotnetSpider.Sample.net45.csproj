@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -37,25 +37,23 @@
     <Compile Include="BaiduSearchSpider.cs" />
     <Compile Include="BaseUsage.cs" />
     <Compile Include="CasSpider.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Cnblogs.cs" />
     <Compile Include="ConfigurableSpider.cs" />
-    <Compile Include="CustomSpider1.cs" />
     <Compile Include="DDengSpider.cs" />
-    <Compile Include="Hao360EntitySpiderInfoBuble.cs" />
     <Compile Include="JdCategorySpider.cs" />
     <Compile Include="JdShopDetailSpider.cs" />
-    <Compile Include="JdShopDetailSpider2.cs" />
     <Compile Include="JdSkuSampleSpider.cs" />
     <Compile Include="JdSkuWebDriverSample.cs" />
     <Compile Include="JdSpider.cs" />
+    <Compile Include="JluSpider.cs" />
     <Compile Include="LinkSpiderExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegexTestSpider.cs" />
     <Compile Include="ShanxizhaoshengSpider.cs" />
     <Compile Include="Situoli.cs" />
-    <Compile Include="TaobaoKeywordWatcher.cs" />
+    <Compile Include="Spider1.cs" />
+    <Compile Include="TestSpider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -87,11 +85,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="taobaokeyword.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
